@@ -19,9 +19,29 @@
     </organization>
     <url>http://metrics.codahale.com/</url>
     <scm>
-        <url>git@github.com:erikvanoosten/metrics-scala.git</url>
-        <connection>scm:git:git@github.com:erikvanoosten/metrics-scala.git</connection>
+        <connection>scm:git:git://github.com/germanborbolla/metrics-scala.git</connection>
+        <developerConnection>scm:git:git@github.com:germanborbolla/metrics-scala.git</developerConnection>
+        <url>http://github.com/germanborbolla/metrics-scala/</url>
     </scm>
+
+    <issueManagement>
+        <system>github</system>
+        <url>http://github.com/germanborbolla/metrics-scala/issues#issue/</url>
+    </issueManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+          <id>sumo-snapshots</id>
+          <name>Sumo Snapshots</name>
+          <url>https://nexus.kumoroku.com/nexus/content/repositories/sumo-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+          <id>sumo-releases</id>
+          <name>Sumo Snapshots</name>
+          <url>https://nexus.kumoroku.com/nexus/content/repositories/sumo-releases/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
@@ -31,7 +51,7 @@
         <dependency>
             <groupId>com.yammer.metrics</groupId>
             <artifactId>metrics-core</artifactId>
-            <version>3.0.0.sumo-SNAPSHOT</version>
+            <version>3.0.0.sumo</version>
         </dependency>
     </dependencies>
     <build>
