@@ -5,7 +5,7 @@
     <artifactId>metrics-scala_2.10.0</artifactId>
     <packaging>jar</packaging>
     <description>metrics-scala for 2.10.0</description>
-    <version>3.0.0.sumo</version>
+    <version>3.0.1.sumo-SNAPSHOT</version>
     <licenses>
         <license>
             <name>Apache 2</name>
